@@ -1,0 +1,36 @@
+@font-face{
+    font-family:Montserrat;
+    src: url(fons/Montserrat-VariableFont_wght.ttf);
+}
+#logo{
+    width: 6%;
+}
+header{
+    font-family:Montserrat;
+}
+.info h3{
+    font-family:Montserrat;
+    font-size: 8vw;
+}
+button{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 3vw;
+    border-radius: 5px;
+    background-color: rgb(173, 173, 173);
+    border: 4px solid rgb(129, 129, 129);
+}
+main{
+    display: flex;
+    gap: 8%;
+    text-align: center;
+    align-items: center;
+}
+button:hover{
+    cursor: pointer;
+    background-color:rgb(129, 129, 129) ;
+}
+main img{
+    width: 26%;
+    margin-top: 83px;
+}
