@@ -1,0 +1,118 @@
+@font-face{
+    font-family:Montserrat;
+    src: url(fons/Montserrat-VariableFont_wght.ttf);
+}
+#logo{
+    width: 6%;
+}
+#logo:hover{
+    cursor: pointer;
+}
+header h1{
+    margin-top: -6vw;
+    font-family:Montserrat;
+}
+figure img{
+    width:77%;
+}
+figure{
+    width:12%;
+    text-align: center;
+    padding: 0;
+    font-family:Montserrat;
+    margin-top: 40px;
+}
+figure *{
+    margin:9px 0;
+}
+button{
+    width:100%;
+    padding: 6px 0;
+    background-color: rgb(173, 173, 173);
+    border: 4px solid rgb(129, 129, 129);
+    cursor:pointer;
+    font-size: 2vw;
+    font-family:Montserrat;
+    border-radius: 5px;
+    font-size:25px;
+    font-weight: 640;
+}
+button:hover{
+    background-color:rgb(129, 129, 129) ;
+}
+figcaption{
+    font-size: 2em;
+}
+.block1{
+    display: flex;
+    gap: 3%;
+    margin:auto;
+    justify-content: center;
+}
+/* h1{
+    background-image: url(img/bannercub.jpg);
+    width: 68%;
+    padding: 62px;
+    color: rgb(255, 255, 255);
+    background-size: 100% auto;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position:center;
+    padding-bottom: 0;
+    font-size: 45px;
+    padding-left: 0%;
+    border-radius: 3px;
+} */
+#contein img{
+    width:100%;
+}
+#contein{
+    display: flex;
+    width: fit-content;
+    animation: start 20s infinite alternate ease-out;
+}
+@keyframes start {
+    from{transform: translateX(0);}
+    17%{transform: translateX(-100%);}
+    34%{transform: translateX(-200%);}
+    51%{transform: translateX(-300%);}
+    68%{transform: translateX(-200%);}
+    85%{transform: translateX(-100%);}
+    to{transform: translateX(0%);} 
+}
+#slider{
+    width:77%;
+    margin: auto;
+    margin-top: -86px;
+    overflow: hidden;
+    border-radius: 3px;
+    position: relative;
+}
+.qwe{
+    font-family:Montserrat;
+    font-size: 45px;
+    text-align: center;
+}
+header{
+    font-family:Montserrat;
+}
+#slider h2{
+    position: absolute;
+    color: white;
+    bottom: -30px;
+    left: 10px;
+    z-index: 1;
+    font-size: 47px;
+    font-family:Montserrat;
+}
+footer img{
+width:100%
+}
+footer{
+    background-color: rgb(134, 134, 134);
+    padding:8px;
+    box-sizing:border-box ;
+}
+body{
+    margin: 0;
+}

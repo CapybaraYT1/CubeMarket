@@ -1,0 +1,54 @@
+@media(max-width:500px){
+    .block1{
+        flex-direction: column;
+        gap: 3%;
+        margin:auto;
+        justify-content: center;
+    }
+    figure img{
+        width:77%;
+    }
+    figure{
+        width:80%;
+        padding: 0;
+        font-family:Montserrat;
+        margin-top: 40px;
+    }
+    #slider{
+        width:77%;
+        margin: auto;
+        margin-top: -40px;
+        overflow: hidden;
+        border-radius: 3px;
+        position: relative;
+    }
+    #slider h2{
+        position: absolute;
+        color: white;
+        bottom: -26px;
+        left: 5px;
+        z-index: 1;
+        font-size: 30px;
+        font-family:Montserrat;
+    }
+    #logo{
+        width: 10%;
+    }
+    .qwe{
+        font-family:Montserrat;
+        font-size: 35px;
+        text-align: center;
+    }
+    button{
+        width:74%;
+        padding: 6px 0;
+        background-color: rgb(173, 173, 173);
+        border: 4px solid rgb(129, 129, 129);
+        cursor:pointer;
+        font-size: 2vw;
+        font-family:Montserrat;
+        border-radius: 5px;
+        font-size:25px;
+        font-weight: 640;
+    }   
+}
